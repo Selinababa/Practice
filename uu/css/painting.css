@@ -1,0 +1,49 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    margin: 0;
+}
+.outter{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    font-size: 26px;
+    position: relative;
+}
+.body{
+    position: relative;
+    margin: 2em 0 ;
+}
+.body>div{
+    width: 10em;
+    height: 16em;
+    position: relative;
+}
+.p1{
+    left: 12%;
+}
+.p2{
+    left: 50%;
+}
+.body>div>img{
+    width: 100%;
+    height: 100%;
+}
+.pic4{
+    width: 14em!important;
+    height: 14em!important;
+}
+.pic5{
+    width: 14em!important;
+    height: 14em!important;
+}
+.pic6{
+    width: 13em!important;
+    height: 12em!important;
+}

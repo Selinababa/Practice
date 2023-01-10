@@ -1,0 +1,74 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    margin: 0;
+}
+.outter{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    font-size: 26px;
+    position: relative;
+}
+.body{
+    position: relative;
+    margin: 2em 0 ;
+}
+.body>div{
+    position: relative;
+    margin-bottom: 2em;
+}
+.p1{
+    left: 12%;
+}
+.p2{
+    left: 50%;
+}
+.body>div>img{
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.pic1{
+    width: 31em;
+    height: 12em;
+}
+.pic2 {
+    width: 14em;
+    height: 14em;
+}
+.pic3{
+    width: 14em;
+    height: 14em;
+}
+.pics{
+    width: 100%;
+    /* height: ; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.pics>div{
+    width: 7em;
+    height: 7em;
+}
+div>img{
+    width: 100%;
+    height: 100%;
+}
+.pic6{
+    /* width: 40em; */
+    width: 100%;
+    height: fit-content;
+    /* height: 10em; */
+}
+.pic7{
+    width: 80%;
+    height: fit-content;
+    left: 10%;
+}
